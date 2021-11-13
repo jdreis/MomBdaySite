@@ -1,0 +1,40 @@
+* {
+    margin: 1px;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgb(135, 60, 255), white);
+}
+.music {
+    position: relative;
+    width: 200px;
+
+}
+.music .box {
+    position: relative;
+    width: 200px;
+    height: 210px;
+
+}
+
+.music .box .img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 300%;
+    height: 300%;
+    object-fit: center;
+}
+
+.music audio {
+    width: 100%;
+    outline: none;
+}
+.heading1{
+    text-align: center;
+}
